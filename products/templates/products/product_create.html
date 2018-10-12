@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form action="." method="post">{% csrf_token %}
+    {{
+    <form action="" class="as_p"></form> }}
+    <input type="submit" value="save" />
+
+    {% comment %}
+    {{ form.as_ul }}
+    <input type="text" name="title" placeholder="Your title">
+    <input type="submit" value="save" />
+    {% endcomment %}
+</form>
+
+{% endblock %}
